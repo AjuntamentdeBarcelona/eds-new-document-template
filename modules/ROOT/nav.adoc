@@ -7,7 +7,10 @@ include::{partialsdir}/README.adoc[tag=metadata]
 // to see listed in the navigation menu for this document. See
 // https://docs.antora.org/antora/navigation/list-structures/ for more details
 // on the syntax of this file.
+.$$MAIN
+* xref:introduction.adoc[Introduction]
 
-* xref:glossary.adoc[_Guides glossary_]
-* xref:index.adoc[_Authors and other document information_]
-* link:{attachmentsdir}/barcelona_{component-name}_{revnumber}.{lang}.pdf[Download PDF]
+.$$BOTTOM
+* xref:{lang}/glossary:ROOT:glossary.adoc[Guides glossary]
+* link:{attachmentsdir}/document_name_{revnumber}.{lang}.pdf[Download PDF]
+* xref:index.adoc[Authors and other document information]

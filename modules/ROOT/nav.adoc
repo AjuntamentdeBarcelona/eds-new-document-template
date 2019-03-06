@@ -12,5 +12,5 @@ include::{partialsdir}/README.adoc[tag=metadata]
 
 .$$BOTTOM
 * xref:{lang}/glossary:ROOT:glossary.adoc[Guides glossary]
-* link:{attachmentsdir}/barcelona_{component-name}_{revnumber}.{lang}.pdf[Download PDF]
+* link:{attachmentsdir}/barcelona_document_name_{revnumber}.{lang}.pdf[Download PDF]
 * xref:index.adoc[Authors and other document information]

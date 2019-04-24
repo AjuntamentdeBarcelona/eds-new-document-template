@@ -19,10 +19,8 @@
 // document. Something like 'https://github.com/USERNAME/REPONAME'.
 :uri-public-repo:
 //
-// MANDATORY. Usually
-// {uri-public-website-root}/{lang}/COMPONENT_NAME/, where COMPONENT_NAME is
-// defined in file antora.yml in this repo.
-:uri-public-website:
+// MANDATORY. Exactly the same value you give to key "name" in file antora.yml.
+:component-name:
 //
 // MANDATORY. Title of the document. In web format, it appears as a heading of
 // level 1. In PDF format, it appears in a title page.
@@ -72,10 +70,8 @@
 //
 // DO NOT TOUCH.
 :page-lang: {lang}
+:uri-public-website: {uri-public-website-root}/{component-name}/
 // end::metadata[]
-
-
-// tag::metadata-table[]
 
 = {_title}
 
